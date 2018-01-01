@@ -1,5 +1,7 @@
 # Docker-TeamCity-Agent-Nodejs
-Based on the official TeamCity Agent image with Nodejs added on top
+Based on the official TeamCity Agent image with Nodejs added on top.
+
+This image will automatically be updated when the official base image gets updated.
 
 **Based on:**
 https://hub.docker.com/r/jetbrains/teamcity-agent/
