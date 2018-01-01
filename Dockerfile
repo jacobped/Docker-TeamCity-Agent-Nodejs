@@ -6,3 +6,5 @@ RUN apt-get update && \
 	apt-get install -y nodejs && \
 	apt-get install -y man && \
 	apt-get clean all
+
+COPY docker_opts.sh /services/docker_opts.sh

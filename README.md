@@ -17,4 +17,7 @@ This will start it up with docker build support and remove the container when yo
 
 **Remember to replace Server address that will point it to your TeamCity server.**
   
-```docker run -it -e SERVER_URL="<Server address>" --privileged -e DOCKER_IN_DOCKER=start -e AGENT_NAME="DockerNodejs-Agent" --name tc-agent-nodejs --rm tc-agent-nodejs```
+```docker run -it -e SERVER_URL="<Server address>" --privileged -e DOCKER_IN_DOCKER=start -e DOCKER_OPTS="--insecure-registry 10.0.0.10:5000 --insecure-registry http://10.0.0.10:5000" -e AGENT_NAME="DockerNodejs-Agent" --name tc-agent-nodejs --rm tc-agent-nodejs```
+
+**Note:**
+The two ```--insecure-registry``` Is only needed if communicating with a [insecure registry](https://docs.docker.com/registry/).
