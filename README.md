@@ -1,4 +1,10 @@
 # Docker-TeamCity-Agent-Nodejs
+[![Docker Pulls](https://img.shields.io/docker/pulls/jacobpeddk/teamcity-agent-nodejs.svg)](https://hub.docker.com/r/jacobpeddk/teamcity-agent-nodejs)
+[![Docker Stars](https://img.shields.io/docker/stars/jacobpeddk/teamcity-agent-nodejs.svg)](https://hub.docker.com/r/jacobpeddk/teamcity-agent-nodejs)
+[![](https://images.microbadger.com/badges/image/jacobpeddk/teamcity-agent-nodejs.svg)](https://microbadger.com/images/jacobpeddk/teamcity-agent-nodejs "Container Image size and layers")
+[![](https://images.microbadger.com/badges/commit/jacobpeddk/teamcity-agent-nodejs.svg)](https://microbadger.com/images/jacobpeddk/teamcity-agent-nodejs "Current commit that the container is build from")
+[![](https://images.microbadger.com/badges/version/jacobpeddk/teamcity-agent-nodejs.svg)](https://microbadger.com/images/jacobpeddk/teamcity-agent-nodejs "Container version")
+
 Based on the official TeamCity Agent image with Nodejs added on top.
 
 This image will automatically be updated when the official base image gets updated.
